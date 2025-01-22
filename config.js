@@ -5,19 +5,19 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "Z0RlzBIR#wndZE2nxWZTQD4_TKKPqjeIlyRZEzxhae59O5OGwtqA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Jᴜsᴛ Nᴏᴡ Sᴛᴀᴛᴜs Sᴇᴇɴ Bʏ ᯽Mᴜᴢᴀᴍɪʟ-Mᴜᴢᴀᴍɪʟ-Mᴅ᯽*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "🙂 nice",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "MUZAMIL-ZAKHMI-MD",
+BOT_NAME: process.env.BOT_NAME || "Amir",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MUZAMIL-ZAKHMI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "Amir",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -25,17 +25,17 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "92342758XXXX",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923114397148",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Mʀ Mᴜᴢᴀᴍɪʟ",
+OWNER_NAME: process.env.OWNER_NAME || "Mian Amir",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Mᴜᴢᴀᴍɪʟ*",
+DESCRIPTION: process.env.DESCRIPTION || "*Owner Amir*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/ZJwzVrG/temp-image.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/9coakDi.jpeg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *MUZAMIL-ZAKHMI*🤠",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *Mian Amir*🤠",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
@@ -51,7 +51,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
